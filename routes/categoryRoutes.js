@@ -146,4 +146,3 @@ router.put('/:id', authMiddleware, adminMiddleware, categoryController.updateCat
 router.delete('/:id', authMiddleware, adminMiddleware, categoryController.deleteCategory);
 
 module.exports = router;
-const swaggerJsdoc = require('swagger-jsdoc');
